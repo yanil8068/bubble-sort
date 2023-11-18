@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bars{
+    width: 800px;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: end;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+
+.bar{
+    background-color: rgb(180, 233, 20);
+    width: 30px;
+    margin: 0 10px 0 10px;
+    border-radius: 5px;
+    border-color: 2px solid black;
+    color: black;
+}
+
